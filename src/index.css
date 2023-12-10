@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Berlin;
+    src: url(./assets/fonts/Berlin-Sans-FB-Demi-Bold.ttf);
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.hero-heading {
+    text-shadow: -1px 5px 0px #4bd44b;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4bd46d;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2b2b2b;
+}
