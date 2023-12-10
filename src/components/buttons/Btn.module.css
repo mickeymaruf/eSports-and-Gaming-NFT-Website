@@ -1,28 +1,5 @@
-.hexagon-btn {
-    padding: 15px 50px;
-    background-color: #4bd46d;
-    /* Set your desired background color */
-    position: relative;
-    clip-path: polygon(2% 50%, 15% 0, 85% 0, 98% 50%, 85% 100%, 15% 100%);
-    outline: none;
-    color: #1d1d1d;
-    /* Set your desired text color */
-    font-size: 16px;
-    /* Set your desired font size */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    transition: 0.5s;
-}
-
-.hexagon-btn:hover {
-    background-color: white;
-}
-
 .hexagon-btn-bg {
     padding: 2px 5px;
-    background-color: white;
     clip-path: polygon(1px 53%,
             0 50%, 0 47%, 15% 0,
             85% 0,
