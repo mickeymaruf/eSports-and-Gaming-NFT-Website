@@ -9,12 +9,15 @@ import nft_img01 from "./assets/nft_img01.jpg"
 import nft_img02 from "./assets/nft_img02.jpg"
 import nft_img03 from "./assets/nft_img03.jpg"
 import nft_avatar from "./assets/nft_avatar.png"
+import about_tab01 from "./assets/about_tab01.png"
+import about_img01 from "./assets/about_img01.jpg"
+import features_icon01 from "./assets/features_icon01.png"
 
 function App() {
   return (
     <>
       <div className='bg-[#4bd46d]'>
-        <header className='text-white bg-[url("https://themedox.com/demo/mykd/assets/img/slider/slider_bg.jpg")]'>
+        <header className='text-white bg-[url("https://themedox.com/demo/mykd/assets/img/slider/slider_bg.jpg")] bg-contain bg-top'>
           <nav className='w-11/12 max-w-screen-2xl mx-auto flex gap-16 items-center justify-between py-8 uppercase font-bold text-sm'>
             <div className='flex-none'>
               <img className='w-44' src="https://themedox.com/demo/mykd/assets/img/logo/logo.png" alt="" />
@@ -58,7 +61,7 @@ function App() {
             </ul>
           </nav>
 
-          <section className='w-11/12 max-w-screen-2xl mx-auto flex items-center justify-between'>
+          <section className='w-11/12 max-w-screen-2xl mx-auto flex items-center justify-between pt-10 pb-16'>
             <div>
               <h6 className='bg-gradient-to-r from-green-500/50 to-green-500/0 text-green-400 w-fit px-5 py-3 rounded-lg text-xl font-extrabold font-poppins tracking-[0.2rem]'>LIVE GAMING</h6>
               <h1 className='hero-heading text-[7.5rem] font-bold mb-5 mt-2 leading-none font-berlin'>STEAMING</h1>
@@ -131,6 +134,64 @@ function App() {
                   1.002 <span className='text-yellow-500'>ETH</span>
                 </span>
                 <button className='bg-yellow-500 text-gray-900 px-3 py-2 rounded-lg font-semibold flex items-center gap-2'>Bid <FaArrowRightLong /></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className='bg-[#0B0E13] text-white py-24'>
+        <div className='w-11/12 mx-auto'>
+          <div className='text-center'>
+            <p className='font-bold mb-3'>KNOW ABOUT US</p>
+            <h3 className='text-5xl font-bold'>TOP RATED STEAMERS</h3>
+            <div className='h-1.5 w-20 bg-green-500 rounded-b-xl mx-auto mt-8'></div>
+            <div className='flex justify-center gap-6 mt-16'>
+              <button className='bg-green-500 text-gray-900 px-10 py-3 font-semibold flex items-center gap-2'>Bid <FaArrowRightLong /></button>
+              <button className='bg-yellow-500 text-gray-900 px-10 py-3 font-semibold flex items-center gap-2'>Bid <FaArrowRightLong /></button>
+            </div>
+          </div>
+
+          <div className='mt-10 h-px w-5/6 mx-auto bg-gradient-to-r from-green-500/0 via-green-500 to-green-500/0'></div>
+          <div className='my-5 flex gap-4 justify-center'>
+            <div className='border rounded-full p-0.5 border-x-green-500 border-y-green-500/30'><img className='border border-x-green-500 border-y-green-500/30 rounded-full' src={about_tab01} alt="" /></div>
+            <div className='border rounded-full p-0.5 border-x-green-500 border-y-green-500/30'><img className='border border-x-green-500 border-y-green-500/30 rounded-full' src={about_tab01} alt="" /></div>
+            <div className='border rounded-full p-0.5 border-x-green-500 border-y-green-500/30'><img className='border border-x-green-500 border-y-green-500/30 rounded-full' src={about_tab01} alt="" /></div>
+            <div className='border rounded-full p-0.5 border-x-green-500 border-y-green-500/30'><img className='border border-x-green-500 border-y-green-500/30 rounded-full' src={about_tab01} alt="" /></div>
+            <div className='border rounded-full p-0.5 border-x-green-500 border-y-green-500/30'><img className='border border-x-green-500 border-y-green-500/30 rounded-full' src={about_tab01} alt="" /></div>
+            <div className='border rounded-full p-0.5 border-x-green-500 border-y-green-500/30'><img className='border border-x-green-500 border-y-green-500/30 rounded-full' src={about_tab01} alt="" /></div>
+          </div>
+          <div className='mb-10 h-px w-5/6 mx-auto bg-gradient-to-r from-green-500/0 via-green-500 to-green-500/0'></div>
+
+          <div className='flex gap-8 border-b border-green-500/40'>
+            <img src={about_img01} alt="" />
+            <div className='grid grid-cols-5 gap-8'>
+              <div className='col-span-3'>
+                <h5 className='text-3xl font-bold'>HUMAN GAME</h5>
+                <h6 className='text-xl font-semibold text-yellow-400'>RATE 50%</h6>
+                <p className='text-lg text-gray-400 mt-6'>
+                  Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis.
+                </p>
+              </div>
+              <div className='col-span-2 space-y-3'>
+                <div className='flex items-center gap-2 bg-gradient-to-r from-[#252931] px-3 py-1.5 rounded-lg text-gray-400'>
+                  <img src={features_icon01} alt="" />
+                  <p className='font-semibold'>Chichi Dragon Ball</p>
+                </div>
+                <div className='flex items-center gap-2 bg-gradient-to-r from-[#252931] px-3 py-1.5 rounded-lg text-gray-400'>
+                  <img src={features_icon01} alt="" />
+                  <p className='font-semibold'>Chichi Dragon Ball</p>
+                </div>
+                <div className='flex items-center gap-2 bg-gradient-to-r from-[#252931] px-3 py-1.5 rounded-lg text-gray-400'>
+                  <img src={features_icon01} alt="" />
+                  <p className='font-semibold'>Chichi Dragon Ball</p>
+                </div>
+              </div>
+              <div className='col-span-full flex justify-between gap-2'>
+                <button className='w-full py-3 bg-gradient-to-t from-[#252931] to-[#252931]/10 font-bold text-gray-400'>DRAGON BALL</button>
+                <button className='w-full py-3 bg-gradient-to-t from-[#252931] to-[#252931]/10 font-bold text-gray-400'>NFT MARKET</button>
+                <button className='w-full py-3 bg-gradient-to-t from-[#252931] to-[#252931]/10 font-bold text-gray-400'>SUPPORT</button>
               </div>
             </div>
           </div>
